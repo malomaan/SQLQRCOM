@@ -1,19 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data.Linq;
-using System.Drawing;
+﻿using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
+using System.Text;
 using ThoughtWorks.QRCode.Codec;
-using System.Data;
-using Microsoft.SqlServer.Server;
-using System.Data.SqlTypes;
 
 namespace SQLQRCOMCLS
 {
-    public class QRData
+	public class QRData
     {
 		[Microsoft.SqlServer.Server.SqlProcedure]
 		public static byte[] ImagenQR(string Dato)
